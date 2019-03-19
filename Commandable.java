@@ -1,10 +1,4 @@
-
-/**
- * Write a description of interface Commandable here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+import java.util.*;
 public interface Commandable
 {
     boolean checkCommand();
