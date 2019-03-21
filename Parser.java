@@ -13,6 +13,7 @@ public class Parser
     public Command parseInput(String input)
     {
         return new Command("hi", "hi");
+        //gamers
     }
     public void addUnlockedCommand(String commandName)
     {
