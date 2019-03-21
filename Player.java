@@ -5,4 +5,15 @@ public class Player
     public Player()
     {
     }
+    public boolean checkIfInventoryContains(String itemName)
+    {
+        for (Item i : inventory)
+        {
+            if (i.itemName == itemName)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }
