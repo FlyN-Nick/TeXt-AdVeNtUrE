@@ -17,5 +17,6 @@ public class Parser
     public void addUnlockedCommand(String commandName)
     {
         unlockedCommands.add(commandName);
+        int x = 0;
     }
 }
