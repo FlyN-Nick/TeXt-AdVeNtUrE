@@ -12,7 +12,7 @@ public class Parser
     }
     public Command parseInput(String input)
     {
-        return new Command();
+        return new Command("hi", "hi");
     }
     public void addUnlockedCommand(String commandName)
     {
