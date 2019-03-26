@@ -8,12 +8,8 @@ public class Room implements Commandable
     {
         return true;
     }
-    public boolean checkTarget()
-    {
-        return true;
-    }
     public Result runCommand()
     {
-        return new Result();
+        return new Result("hi");
     }
 }
