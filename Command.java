@@ -10,6 +10,9 @@ public class Command
         target = targetName;
         action = actionName;
     }
+    public Result(String targetName, String actionName)
+    {
+    }
     public void addTarget(String possibleTargetName)
     {
         if (!possibleTargets.contains(possibleTargetName))
