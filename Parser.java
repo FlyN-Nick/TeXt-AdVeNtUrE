@@ -14,11 +14,12 @@ public class Parser
     {
         int i = 0;
         int test = 0;
+        String[] commandtarget = new String[1];
         while (i != input.length()){
             char temp=input.charAt(i);
             if (temp == ' '){
-                String[] commandtarget = input.split(" ");
-                int test = 1;
+                commandtarget = input.split(" ");
+                test = 1;
             }
         }
         if (test != 1){
