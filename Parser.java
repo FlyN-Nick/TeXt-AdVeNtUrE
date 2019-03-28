@@ -14,7 +14,7 @@ public class Parser
     {
         int i = 0;
         int test = 0;
-        String[] commandtarget = new String[1];
+        String[] commandtarget = new String[2];
         while (i != input.length()){
             char temp=input.charAt(i);
             if (temp == ' '){
