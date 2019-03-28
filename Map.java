@@ -1,12 +1,9 @@
-/**
- * Write a description of class Map here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+import java.util.*;
 public class Map
 {
-    Room currentRoom(){ 
+    private List<Room> rooms;
+    Room currentRoom()
+    { 
         return null;
     }
     
