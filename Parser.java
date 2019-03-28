@@ -12,7 +12,19 @@ public class Parser
     }
     public Command parseInput(String input)
     {
-        return new Command("hi", "hi");
+        int i = 0;
+        int test = 0;
+        while (i != input.length()){
+            char temp=input.charAt(i);
+            if (temp == ' '){
+                String[] commandtarget = input.split(" ");
+                int test = 1;
+            }
+        }
+        if (test != 1){
+            throw new IllegalArgumentException("No target specified.");
+        }
+        return new Command(commandtarget[0], commandtarget[1]);
         //gamers
     }
     public void addUnlockedCommand(String commandName)
