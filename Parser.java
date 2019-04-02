@@ -25,6 +25,14 @@ public class Parser
         if (test != 1){
             throw new IllegalArgumentException("No target specified.");
         }
+        String[] LegalCommands = new String[4];
+        LegalCommands = ["Take", "Go", "Observe", "Equip"];
+        if (LegalCommand.contains(commandtarget)){
+            int meaningless = 0;
+        }
+        else {
+            throw new IllegalArgumentException("Not a legal command.");
+        }
         return new Command(commandtarget[0], commandtarget[1]);
     }
     public void addUnlockedCommand(String commandName)
