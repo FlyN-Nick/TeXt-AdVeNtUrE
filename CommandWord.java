@@ -3,6 +3,6 @@ public class CommandWord
 {
     public CommandWord()
     {
-        String[] acceptableCommands = ["Go","Take","Fight"]
+        //String[] acceptableCommands = ["Go","Take","Fight"]
     }
 }
