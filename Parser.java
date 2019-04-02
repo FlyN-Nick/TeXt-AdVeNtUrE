@@ -26,7 +26,6 @@ public class Parser
             throw new IllegalArgumentException("No target specified.");
         }
         return new Command(commandtarget[0], commandtarget[1]);
-        //gamers
     }
     public void addUnlockedCommand(String commandName)
     {
