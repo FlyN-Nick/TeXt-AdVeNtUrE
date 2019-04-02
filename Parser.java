@@ -23,6 +23,7 @@ public class Parser
                 commandtarget = input.split(" ");
                 test = 1;
             }
+            i=i+1;
         }
         if (test != 1)
         {
@@ -30,7 +31,7 @@ public class Parser
         }
         String[] LegalCommands = {"Take", "Go", "Observe", "Equip"};
         //LegalCommands = {"Take", "Go", "Observe", "Equip"};
-        if (Arrays.asList(LegalCommands).contains(commandtarget))
+        if (Arrays.asList(LegalCommands).contains(commandtarget[0]))
         {
             int meaningless = 0;
         }
