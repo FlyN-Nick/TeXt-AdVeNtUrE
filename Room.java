@@ -1,12 +1,18 @@
 import java.util.*;
 public class Room implements Commandable
 {
-    private HashMap<Integer, Integer> locationViaX = new HashMap<Integer, Integer>();
-    private HashMap<Integer, Integer> locationViaY = new HashMap<Integer, Integer>();
+    private int xLocation;
+    private int yLocation;
+
     public Room(int xLocation, int yLocation)
     {
-        locationViaX.put(xLocation, yLocation);
-        locationViaY.put(yLocation, xLocation);
+
+    }
+    public int getXLocation() {
+        return xLocation;
+    }
+    public int getYLocation() {
+        return yLocation;
     }
     public boolean checkCommand()
     {
@@ -16,15 +22,5 @@ public class Room implements Commandable
     {
         return new Result("Result Method Answer");
     }
-    public boolean checkLocation(int theX, int theY)
-    {
-        if (locationViaX.containsKey(theX) && locationViaY.containsKey(theY))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
+
 }
