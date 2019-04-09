@@ -16,16 +16,16 @@ public class Room implements Commandable
     }
     public enum Items {
     }
-    public Item placeItem(String[] itemlist) {
-        return Item
-    }
+    //public Item placeItem(String[] itemlist) {
+    //    //return Item;
+    //}
     public boolean checkCommand()
     {
         return true;
     }
     public Result runCommand()
     {
-        return new Result("Result Method Answer");
+        return new Result();
     }
 
 }

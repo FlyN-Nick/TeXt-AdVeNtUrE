@@ -21,6 +21,6 @@ public class Item
     }
     public Result runCommand(String command)
     {
-        return new Result(commandsToResult.get(command));
+        return new Result();//commandsToResult.get(command)
     }
 }
