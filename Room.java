@@ -14,6 +14,11 @@ public class Room implements Commandable
     public int getYLocation() {
         return yLocation;
     }
+    public enum Items {
+    }
+    public Item placeItem(String[] itemlist) {
+        return Item
+    }
     public boolean checkCommand()
     {
         return true;
