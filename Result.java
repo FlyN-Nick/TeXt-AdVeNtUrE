@@ -1,7 +1,10 @@
 public class Result
 {
-    public String Result()
+    public String ResultString()
     {
-        return "Result Class only method return string";
+        return "True";
+    }
+    public Result Resulttest(Result GamerZ){
+        return GamerZ;
     }
 }
