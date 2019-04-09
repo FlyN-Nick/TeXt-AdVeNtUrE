@@ -9,7 +9,7 @@ public class Item
         this.itemName = itemName;
     }
     boolean checkAvailability(){
-        return true
+        return true;
     }
     boolean checkCommand(String command)
     {
