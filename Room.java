@@ -15,6 +15,7 @@ public class Room implements Commandable
         return yLocation;
     }
     public enum Items {
+        
     }
     public Item placeItem(String[] itemlist) {
         return new Item("Sword");
