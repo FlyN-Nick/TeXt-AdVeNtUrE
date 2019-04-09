@@ -16,9 +16,9 @@ public class Room implements Commandable
     }
     public enum Items {
     }
-    //public Item placeItem(String[] itemlist) {
-    //    //return Item;
-    //}
+    public Item placeItem(String[] itemlist) {
+        return new Item("Sword");
+    }
     public boolean checkCommand()
     {
         return true;

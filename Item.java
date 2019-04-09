@@ -1,5 +1,5 @@
 import java.util.*;
-public class Item 
+public class Item
 {
     public String itemName;
     List<String> acceptableCommands;
