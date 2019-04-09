@@ -15,18 +15,31 @@ public class Parser
         int i = 0;
         int test = 0;
         String[] commandtarget = new String[2];
-        while (i != input.length()){
+        while (i != input.length())
+        {
             char temp=input.charAt(i);
-            if (temp == ' '){
+            if (temp == ' ')
+            {
                 commandtarget = input.split(" ");
                 test = 1;
             }
+            i=i+1;
         }
-        if (test != 1){
+        if (test != 1)
+        {
             throw new IllegalArgumentException("No target specified.");
         }
+        String[] LegalCommands = {"Take", "Go", "Observe", "Equip"};
+        //LegalCommands = {"Take", "Go", "Observe", "Equip"};
+        if (Arrays.asList(LegalCommands).contains(commandtarget[0]))
+        {
+            int meaningless = 0;
+        }
+        else 
+        {
+            throw new IllegalArgumentException("Not a legal command.");
+        }
         return new Command(commandtarget[0], commandtarget[1]);
-        //gamers
     }
     public void addUnlockedCommand(String commandName)
     {

@@ -5,7 +5,7 @@ public class Command
     String target;
     String action;
     boolean functional;
-    public Command(String targetName, String actionName)
+    public Command(String actionName, String targetName)
     {
         target = targetName;
         action = actionName;
