@@ -14,7 +14,7 @@ public class Room implements Commandable
     }
     public Result runCommand()
     {
-        return new Result("hi");
+        return new Result("Result Method Answer");
     }
     public boolean checkLocation(int theX, int theY)
     {
