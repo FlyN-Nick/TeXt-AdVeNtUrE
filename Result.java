@@ -1,6 +1,7 @@
 public class Result
 {
-    public Result(String name)
+    public String Result()
     {
+        return "Result Class only method return string";
     }
 }
