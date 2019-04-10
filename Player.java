@@ -7,13 +7,17 @@ public class Player
     }
     public boolean checkIfInventoryContains(String itemName)
     {
+        boolean returnval = false;
         for (Item i : inventory)
         {
             if (i.itemName == itemName)
             {
-                return true;
+                returnval = true;
+            }
+            else {
+                returnval = false;
             }
         }
-        return false;
+        return returnval;
     }
 }
