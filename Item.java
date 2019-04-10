@@ -23,6 +23,6 @@ public class Item
     }
     public Result runCommand(String command)
     {
-        return new Result();//commandsToResult.get(command) <- that code not working so i changed it to result
+        return new Result();//commandsToResult.get(command);// not sure why it doesn't work
     }
 }
