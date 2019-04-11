@@ -18,5 +18,8 @@ public class Command
             functional = true;
         }
     }
-    
+    //public Result runCommand(String hi){
+    //    
+     //   return howdy;
+    //}
 }
