@@ -19,5 +19,5 @@ public class Player
             }
         }
         return returnval;
-    }//
+    }
 }
