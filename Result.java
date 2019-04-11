@@ -5,7 +5,7 @@ public class Result
         return "GamerZ";
     }
     public Result Resulttest(Result GamerZ, String Resulttest){
-        System.out.print("GamerZZZ: gamer.exe JAVA = ERROR: GAMERSriseUP");
+        System.out.print("no");
         return GamerZ;
     }
 }

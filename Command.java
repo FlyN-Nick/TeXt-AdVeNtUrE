@@ -19,7 +19,7 @@ public class Command
         }
     }
     //public Result runCommand(String hi){
-    //    
-     //   return howdy;
+        
+       //return hi;
     //}
 }
