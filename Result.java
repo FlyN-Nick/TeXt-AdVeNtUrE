@@ -2,7 +2,7 @@ public class Result
 {
     public String ResultString()
     {
-        return "True";
+        return "GamerZ";
     }
     public Result Resulttest(Result GamerZ){
         return GamerZ;
