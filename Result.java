@@ -4,7 +4,7 @@ public class Result
     {
         return "GamerZ";
     }
-    public Result Resulttest(Result GamerZ){
+    public String Resulttest(String GamerZ){
         return GamerZ;
     }
 }
