@@ -1,5 +1,5 @@
 import java.util.*;
-public class Room implements Commandable
+public abstract class Room implements Commandable
 {
     private int xLocation;
     private int yLocation;
