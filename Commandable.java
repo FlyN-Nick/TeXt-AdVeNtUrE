@@ -1,5 +1,5 @@
 import java.util.*;
-public interface Commandable
+public interface Commandable extends CommandTestable
 {
     boolean checkCommand();
     public Result runCommand();

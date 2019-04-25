@@ -5,14 +5,10 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class CommandTest
+public interface CommandTestable
 {
-
-    private int x;
     public static boolean commandTester(){
         return false;
     }
-    public boolean commandester(boolean x){
-        return true;
-    }
+    public void commandester();
 }
