@@ -9,8 +9,10 @@ public class CommandTest
 {
 
     private int x;
-    public static boolean commandTester();
+    public static boolean commandTester(){
+        return false;
+    }
     public boolean commandester(boolean x){
-        
+        return true;
     }
 }
