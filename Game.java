@@ -6,8 +6,9 @@ public class Game
 
     private Game rsRiseUp;
     
-    public void startGamersWhoAreRisingUp(){
-
+    public Map startGamersWhoAreRisingUp(){
+           //this is a test to see if the class is functional
+           return map;
     }
     public void startGame(){
 
