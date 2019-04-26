@@ -14,7 +14,8 @@ public class Game
 
         int i=0;
         while (i>-1){
-            main.getInput();
+            main.getInput(); //String[] outputs= main.getInput();
+            //System.out.println(outputs);
         }
     }
 }
