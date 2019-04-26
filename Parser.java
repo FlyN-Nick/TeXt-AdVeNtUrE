@@ -15,16 +15,6 @@ public class Parser
         int i = 0;
         int test = 0;
         String[] commandtarget = new String[2];
-        while (i != input.length())
-        {
-            char temp=input.charAt(i);
-            if (temp == ' ')
-            {
-                commandtarget = input.split(" ");
-                test = 1;
-            }
-            i=i+1;
-        }
         if (test != 1)
         {
             throw new IllegalArgumentException("No target specified.");
