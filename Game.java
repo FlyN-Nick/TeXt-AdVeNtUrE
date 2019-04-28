@@ -2,7 +2,7 @@ public class Game
 {
     private Map map;
     private Player player;
-    private Parser parser;
+    public Parser parser;
     private Game rsRiseUp;
     public Commandable tester;
     public Main main;
@@ -14,8 +14,9 @@ public class Game
 
         int i=0;
         while (i>-1){
-            main.getInput(); //String[] outputs= main.getInput();
-            //System.out.println(outputs);
+            String[] outputs= main.getInput();
+            //System.out.println(main.getInput());
+            Command command = parser.parseInput(outputs[0], outputs[1]);
         }
     }
 }

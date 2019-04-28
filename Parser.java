@@ -10,18 +10,18 @@ public class Parser
             //allPossibleCommands.add("");
         }
     }
-    public Command parseInput(String input)
+    public Command parseInput(String input1, String input2)
     {
         int i = 0;
         int test = 0;
-        String[] commandtarget = new String[2];
+        //String[] commandtarget = new String[2];
         if (test != 1)
         {
             throw new IllegalArgumentException("No target specified.");
         }
         String[] LegalCommands = {"Take", "Go", "Observe", "Equip"};
         //LegalCommands = {"Take", "Go", "Observe", "Equip"};
-        if (Arrays.asList(LegalCommands).contains(commandtarget[0]))
+        if (Arrays.asList(LegalCommands).contains(input1))
         {
             int meaningless = 0;
         }
@@ -29,7 +29,7 @@ public class Parser
         {
             throw new IllegalArgumentException("Not a legal command.");
         }
-        return new Command(commandtarget[0], commandtarget[1]);
+        return new Command(input1, input2);
     }
     public void addUnlockedCommand(String commandName)
     {
